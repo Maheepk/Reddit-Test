@@ -35,8 +35,6 @@
 		4CC53A7722C3E4770082C342 /* RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC53A7122C3E4770082C342 /* RequestSerializer.swift */; };
 		4CC53A7822C3E4770082C342 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC53A7222C3E4770082C342 /* Api.swift */; };
 		4CC53A7C22C3E90F0082C342 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC53A7B22C3E90F0082C342 /* BaseResponse.swift */; };
-		AAB2769878A751F12C257B87 /* Pods_Reddit_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8424F8FA851607ADE16C4A7 /* Pods_Reddit_Test.framework */; };
-		C4B9AA6B90BDBF6457DFB679 /* Pods_Reddit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586DFAEE359C724D38B3FD71 /* Pods_Reddit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,8 +104,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B9AA6B90BDBF6457DFB679 /* Pods_Reddit.framework in Frameworks */,
-				AAB2769878A751F12C257B87 /* Pods_Reddit_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,6 +670,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Reddit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -692,6 +689,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Reddit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
